@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+.btn {
+  border-radius: 8px;
+  background-color: blue;
+  width: fit-content;
+  padding: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  opacity: 0,6;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn:hover{
+  opacity: 1;
+}
